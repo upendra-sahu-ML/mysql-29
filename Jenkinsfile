@@ -30,6 +30,7 @@ pipeline {
           }
         }
       }
+        
       stage('Chart Release') {
         when {
           branch env.BRANCH_NAME
